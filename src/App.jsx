@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
+
 
 function App () {
     return (
       <main>
-        <p>React State Lab</p>
+        <p>Current Score:</p>
+        <button>+X</button>
       </main>
     );
 }
