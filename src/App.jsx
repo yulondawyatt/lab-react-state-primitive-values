@@ -3,10 +3,20 @@ import "./App.css";
 
 
 function App () {
+  const [count, setCount] = useState(1)
+    
+  function increaseCount() {
+      setCount(prevCount => prevCount + 1)
+  }
+
     return (
       <main>
-        <p>Current Score:</p>
-        <button>+X</button>
+        <div>Current Score:{count}</div>
+
+        <div>
+          <button onClick={increaseCount}
+        </div>
+
       </main>
     );
 }
