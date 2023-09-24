@@ -10,14 +10,19 @@ function App () {
   }
 
     return (
+      <>
       <main>
         <div>Current Score:{count}</div>
 
         <div>
-          <button onClick={increaseCount}
+          <button onClick={increaseCount}> setCount</button>
         </div>
 
+        <div>
+          <button>Pay 10 points to change from +1 to +2</button>
+        </div>
       </main>
+      </>
     );
 }
 
