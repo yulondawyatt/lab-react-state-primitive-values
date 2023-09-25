@@ -12,7 +12,7 @@ function App () {
     return (
       <>
       <main>
-        <div>Current Score:{count}</div>
+        <div class="current_score">Current Score:{count}</div>
 
         <div>
           <button onClick={increaseCount}> setCount</button>
